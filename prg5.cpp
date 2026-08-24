@@ -49,7 +49,7 @@ int main() {
     cout << "\nEnter amount to deposit: ";
     cin >> amount;
     account.deposit(amount);
-
+    account.display();
     cout << "\nEnter amount to withdraw: ";
     cin >> amount;
     account.withdraw(amount);
